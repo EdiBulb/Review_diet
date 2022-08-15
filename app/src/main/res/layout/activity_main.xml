@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--컨스트레이아웃을 쓴다.-->
+
+    <!--리스트뷰를 만든다-->
+    <ListView
+        android:id="@+id/mainLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <!--이미지 뷰 만든다.-->
+    <!--마진 주는 습관 들일 것-->
+    <!--이 이미지가 눌리면 기능하다록 만들 것이다.-->
+    <ImageView
+        android:id="@+id/writeBtn"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

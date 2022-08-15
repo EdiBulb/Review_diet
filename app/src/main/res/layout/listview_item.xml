@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <!--리스트 뷰를 위한 아이템을 만든다.-->
+    <TextView
+        android:id="@+id/listViewDateArea"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:text="date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/listViewMemoArea"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:text="메모 텍스트"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--다 만들고, 어댑터와 연결해주러 간다.-->
+
+</LinearLayout>
